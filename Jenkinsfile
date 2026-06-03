@@ -3,10 +3,10 @@ pipeline {
 
     environment {
         // Replace with your Docker Hub username and repository name
-        DOCKER_IMAGE = "Manthan77/flask-api"
+        DOCKER_IMAGE = "manthan77/flask-api"
         
         // This is the ID of the credentials you will create in Jenkins for Docker Hub
-        DOCKER_CREDENTIALS_ID = "dockerhub-creds"
+        DOCKER_CREDENTIALS_ID = "mcd"
         
         // The SSH connection string for your second EC2 instance (App Server)
         // e.g., ubuntu@1.2.3.4 or ec2-user@1.2.3.4
